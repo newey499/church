@@ -1,0 +1,25 @@
+
+This website is tested on a Debian Linux machine using the Apache webserver and requires a MySQL database.
+
+It is assumed that Apache is installed and that the reader is familiar with setting up virtual hosts - one called church is recommended for 
+this website.
+
+Various Debian php and apache packages need to be loaded.
+
+sudo apt-get install php5
+sudo apt-get install libapache2-mod-php5
+sudo apt-get install php5-cli
+sudo apt-get install php5-curl
+sudo apt-get install php5-ffmpeg
+sudo apt-get install php5-mcrypt
+sudo apt-get install php5-mysql
+sudo apt-get install php5-odbc
+sudo apt-get install php5-pgsql
+sudo apt-get install php5-sqlite
+sudo apt-get install php5-suhosin
+sudo apt-get install php5-xdebug
+
+See the sql directory for an initial database load.
+
+To run this website needs some PEAR modules.
+A script to load the required modules is in the website-setup directory.

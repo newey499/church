@@ -1,0 +1,245 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0030)http://www.glish.com/css/3.asp -->
+<HTML>
+<HEAD>
+<TITLE>glish.com : CSS layout techniques : static width and centered</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2800.1479" name=GENERATOR>
+
+<link rel="stylesheet" type="text/css" href="all.css" />	
+<link rel="stylesheet" type="text/css" href="staticcentered.css" />	
+
+</HEAD>
+
+<BODY>
+
+<DIV id=frame>
+
+<DIV id=contentheader>
+<H1>
+<A href="http://www.glish.com/css/home.asp">LAYOUT TECHNIQUES</A>: 
+static width and centered
+</H1>
+
+</DIV>
+
+
+
+<DIV id=contentleft>
+<H1>contentleft</H1>
+<PRE>
+#contentleft {
+width:175px;
+padding:0px;
+float:left;
+background:#fff;
+	}
+</PRE>
+<P class=greek>
+Marketing teams input produce cross purposing in view of goal 
+alignments due to knowlege paucity, necessitating workflow education and 
+orientation. 
+</P>
+</DIV>
+
+
+
+<DIV id=contentcenter>
+
+<H1>contentcenter</H1>
+<PRE>
+#contentcenter {
+width:300px;
+padding:0px;
+float:left;
+background:#eee;
+	}
+</PRE>
+<P>
+3 columns all with static widths, and contained in a parent DIV wihich 
+remains centered in the window. One rather serious limitation of this particular 
+technique is that if any of the three content DIVs contains an image or a really 
+long word that is longer than the width of the DIV, it totally breaks the 
+layout. Each browser breaks it differently.
+</P>
+<P>
+<STRONG>Scroll down for the source.</STRONG>
+</P>
+<P class=greek>
+Enterprise engenderment accelerates initiative platforms, 
+reducing staffing components, integration of technical accessibility, resulting 
+in bottom line pluralisms, benefit-wise. Incidental re-sizing staff requirements 
+through attrition can be accelerated by paridigm shifts and focusing on core 
+suitability and cross-training. 
+</P>
+
+</DIV>
+
+
+
+<DIV id=contentright>
+
+<H1>contentright</H1>
+<PRE>
+#contentright {
+width:175px;
+padding:0px;
+float:left;
+background:#fff;
+	}
+</PRE>
+<P>
+This page is part of <A href="http://www.glish.com/css/home.asp">CSS Layout Techniques</A>, 
+a resource for web developers and designers. 
+</P>
+<P>
+Other Layout Techniques:<BR>
+<A href="3cols.htm">3 columns, the holy grail</A><BR>
+<A href="2cols.htm">2 columns, ALA style</A><BR>
+<A href="4fluidcols.htm">4 columns, all fluid</A><BR>
+<A href="3fluidcols.htm">3 columns, all fluid </A><BR>
+<A href="staticcentered.htm">static width and centered</A><BR>
+<A href="nestedfloat.htm">nested float</A><BR>
+</P>
+
+<P>
+Does it <A href="http://validator.w3.org/check?uri=http://www.glish.com/css/3.asp?noSRC=true">validate</A>? 
+</P>
+
+</DIV>
+
+
+<BR clear=all><!-- without this little <br /> NS6 and IE5PC do not stretch the frame div down to encopass the content DIVs -->
+
+</DIV>
+
+<BR style="CLEAR: both">
+<FORM>
+<TEXTAREA style="BACKGROUND: #fff; MARGIN: 5%; OVERFLOW: scroll; WIDTH: 89%; HEIGHT: 500px">
+
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;title&gt;glish.com : CSS layout techniques : static width and centered&lt;/title&gt;
+
+&lt;style type="text/css"&gt;
+	@import "all.css"; /* just some basic formatting, no layout stuff */
+	
+	body {
+		text-align:center;
+		}
+	
+	#frame {
+		width:650px;
+		margin-right:auto;
+		margin-left:auto;
+		margin-top:10px;
+		padding:0px;
+		text-align:left;
+		}
+		
+	#contentleft {
+		width:175px;
+		padding:0px;
+		float:left;
+		background:#fff;
+		}
+	
+	#contentcenter {
+		width:300px;
+		padding:0px;
+		float:left;
+		background:#eee;
+		}
+	
+	#contentright {
+		width:175px;
+		padding:0px;
+		float:left;
+		background:#fff;
+		}
+	
+	#contentheader {
+		background:#fff
+		}
+		
+	p,h1,pre {
+		margin:0px 10px 10px 10px;
+		}
+		
+	h1 {
+		font-size:14px;
+		padding-top:10px;
+		}
+		
+	#contentheader h1 {
+		font-size:14px;
+		padding:10px;
+		margin:0px;
+		}
+	
+	#contentright p { font-size:10px}
+	
+&lt;/style&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;div id="frame"&gt;
+	&lt;div id="contentheader"&gt;&lt;h1&gt;&lt;a href="home.asp"&gt;LAYOUT TECHNIQUES&lt;/a&gt;: static width and centered&lt;/h1&gt;&lt;/div&gt;
+	&lt;div id="contentleft"&gt;
+		&lt;h1&gt;contentleft&lt;/h1&gt;
+&lt;pre&gt;#contentleft {
+width:175px;
+padding:0px;
+float:left;
+background:#fff;
+	}&lt;/pre&gt;
+		&lt;p class="greek"&gt;Marketing teams input produce cross purposing in view of goal alignments due to knowlege paucity, necessitating workflow education and orientation. &lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;div id="contentcenter"&gt;
+		&lt;h1&gt;contentcenter&lt;/h1&gt;
+&lt;pre&gt;#contentcenter {
+width:300px;
+padding:0px;
+float:left;
+background:#eee;
+	}&lt;/pre&gt;
+		&lt;p&gt;3 columns all with static widths, and contained in a parent DIV wihich remains centered in the window. One rather serious limitation of this particular technique is that if any of the three content DIVs contains an image or a really long word that is longer than the width of the DIV, it totally breaks the layout. Each browser breaks it differently.&lt;/p&gt;
+		&lt;p&gt;&lt;strong&gt;Scroll down for the source.&lt;/strong&gt;&lt;/p&gt;
+		&lt;p class="greek"&gt;Enterprise engenderment accelerates initiative platforms, reducing staffing components, integration of technical accessibility, resulting in bottom line pluralisms, benefit-wise. Incidental re-sizing staff requirements through attrition can be accelerated by paridigm shifts and focusing on core suitability and cross-training. &lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;div id="contentright"&gt;
+		&lt;h1&gt;contentright&lt;/h1&gt;
+&lt;pre&gt;#contentright {
+width:175px;
+padding:0px;
+float:left;
+background:#fff;
+	}&lt;/pre&gt;
+			&lt;p&gt;
+	This page is part of &lt;a href="home.asp"&gt;CSS Layout Techniques&lt;/a&gt;, a resource for web developers and designers.
+	&lt;/p&gt;
+	&lt;p&gt;
+	Other Layout Techniques:&lt;br/&gt;
+		&lt;a href="7.asp"&gt;3 columns, the holy grail&lt;/a&gt;&lt;br/&gt;
+	&lt;a href="9.asp"&gt;2 columns, ALA style&lt;/a&gt;&lt;br/&gt;
+	&lt;a href="8.asp"&gt;4 columns, all fluid&lt;/a&gt;&lt;br/&gt;
+	&lt;a href="2.asp"&gt;3 columns, all fluid &lt;/a&gt;&lt;br/&gt;
+	&lt;a href="3.asp"&gt;static width and centered&lt;/a&gt;&lt;br/&gt;
+	&lt;a href="1.asp"&gt;nested float&lt;/a&gt;&lt;br/&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+	Does it &lt;a href="http://validator.w3.org/check?uri=http://www.glish.com/css/3.asp?noSRC=true"&gt;validate&lt;/a&gt;?
+	&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;br clear="all" /&gt;&lt;!-- without this little &lt;br /&gt; NS6 and IE5PC do not stretch the frame div down to encopass the content DIVs --&gt;
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+</TEXTAREA>
+
+</FORM>
+
+</BODY>
+
+</HTML>

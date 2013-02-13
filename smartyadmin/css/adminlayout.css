@@ -1,0 +1,18 @@
+
+
+#maincontainer
+{
+	margin-left:1em; 
+	margin-right:1em; 
+	padding: 0px; 
+}
+
+.code
+{
+	line-height:1.2em;
+	color: black;
+	background: white;
+	padding:2px;
+	border:solid black 1px;
+	width:60em;
+}

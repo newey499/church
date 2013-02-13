@@ -1,0 +1,9 @@
+
+AuthType Basic
+
+AuthName "Administration"
+
+
+
+require valid-user
+AuthUserFile "/home/bobiles/.htpasswds/public_html/admin/passwd"

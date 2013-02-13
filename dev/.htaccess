@@ -1,0 +1,20 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^dev.christchurchlye.org.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www.dev.christchurchlye.org.uk$
+RewriteRule ^(.*)$ http://christchurchlye.org.uk/devsystem [R=301,L]
+
+RewriteCond %{HTTP_REFERER} !^http://christchurchlye.org.uk/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://christchurchlye.org.uk$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://dev.christchurchlye.org.uk/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://dev.christchurchlye.org.uk$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://stroyde.christchurchlye.org.uk/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://stroyde.christchurchlye.org.uk$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.christchurchlye.org.uk/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.christchurchlye.org.uk$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.dev.christchurchlye.org.uk/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.dev.christchurchlye.org.uk$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.stroyde.christchurchlye.org.uk/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.stroyde.christchurchlye.org.uk$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+

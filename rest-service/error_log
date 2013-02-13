@@ -1,0 +1,98 @@
+[11-Mar-2011 03:43:09] PHP Fatal error:  Wrong parameters for Exception([string $exception [, long $code ]]) in /home/bobiles/public_html/rest-service/class.rest.exception.php on line 13
+[11-Mar-2011 03:43:11] PHP Fatal error:  Wrong parameters for Exception([string $exception [, long $code ]]) in /home/bobiles/public_html/rest-service/class.rest.exception.php on line 13
+[11-Mar-2011 03:43:11] PHP Fatal error:  Wrong parameters for Exception([string $exception [, long $code ]]) in /home/bobiles/public_html/rest-service/class.rest.exception.php on line 13
+[11-Mar-2011 05:03:12] PHP Fatal error:  Wrong parameters for Exception([string $exception [, long $code ]]) in /home/bobiles/public_html/rest-service/class.rest.exception.php on line 13
+[01-Apr-2011 21:53:48] PHP Warning:  parse_url(/EVENTS/ALL/2011/?CUSTOMPLUGINFILE[]=HTTP://WEB3300.WEB03.TALKACTIVE.NET/FARMERASS3//MODULES/FORUMS/IMAGES/SMILES/TEST.GIF??) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/bobiles/public_html/rest-service/class.rest-service.php on line 26
+[03-May-2011 15:35:59] PHP Warning:  parse_url(/EVENTS/%5C%22HTTP://WWW.CHRISTIAN.ORG.UK/ALTERNATIVEVOTE%5C%22) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/bobiles/public_html/rest-service/class.rest-service.php on line 26
+[17-May-2011 13:23:24] PHP Warning:  parse_url(/EVENTS/%5C%22HTTP://WWW.CHRISTIAN.ORG.UK/FUNCTION.PARSE-URL) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/bobiles/public_html/rest-service/class.rest-service.php on line 26
+[26-Mar-2012 19:03:38] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[28-Mar-2012 22:55:10] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[29-Mar-2012 08:07:23] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[29-Mar-2012 11:26:41] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[30-Mar-2012 02:56:17] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[30-Mar-2012 18:28:48] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[31-Mar-2012 03:06:05] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[31-Mar-2012 04:08:49] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[31-Mar-2012 20:54:12] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[31-Mar-2012 20:54:13] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[31-Mar-2012 21:03:54] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/restdocs.php on line 41
+[31-Mar-2012 22:54:36] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[01-Apr-2012 04:17:09] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[01-Apr-2012 17:25:00] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[01-Apr-2012 19:06:17] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[02-Apr-2012 10:48:35] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[02-Apr-2012 18:06:21] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[02-Apr-2012 19:00:04] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[03-Apr-2012 03:30:51] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/restdocs.php on line 41
+[03-Apr-2012 05:07:21] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[03-Apr-2012 06:10:12] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[03-Apr-2012 22:20:26] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[03-Apr-2012 22:23:21] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[03-Apr-2012 22:26:16] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/restdocs.php on line 41
+[04-Apr-2012 17:20:47] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[04-Apr-2012 21:57:16] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[04-Apr-2012 23:12:17] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[05-Apr-2012 03:28:31] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/restdocs.php on line 41
+[05-Apr-2012 04:58:07] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[05-Apr-2012 05:37:38] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[06-Apr-2012 01:40:23] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[06-Apr-2012 14:36:15] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[07-Apr-2012 08:00:48] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[07-Apr-2012 17:24:53] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[07-Apr-2012 19:07:51] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[08-Apr-2012 07:43:38] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[08-Apr-2012 19:22:32] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[09-Apr-2012 05:25:27] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[09-Apr-2012 20:07:36] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[09-Apr-2012 22:48:11] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[10-Apr-2012 02:02:57] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[10-Apr-2012 03:44:18] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[10-Apr-2012 04:29:19] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[10-Apr-2012 07:04:12] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[10-Apr-2012 15:32:55 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[11-Apr-2012 05:56:36 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[11-Apr-2012 20:18:38 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[11-Apr-2012 20:19:52 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/restdocs.php on line 41
+[12-Apr-2012 06:54:04 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[12-Apr-2012 09:46:54 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[13-Apr-2012 15:16:08 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[13-Apr-2012 15:22:55 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[14-Apr-2012 14:19:36 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[15-Apr-2012 00:31:56 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/restdocs.php on line 41
+[15-Apr-2012 09:28:04 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[15-Apr-2012 16:41:14 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[16-Apr-2012 06:47:47 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[16-Apr-2012 16:22:17 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[16-Apr-2012 19:29:11 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/restdocs.php on line 41
+[16-Apr-2012 22:27:20 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[17-Apr-2012 02:01:16 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[17-Apr-2012 14:01:02 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[17-Apr-2012 16:35:32 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[17-Apr-2012 18:35:25 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[18-Apr-2012 07:54:30 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[18-Apr-2012 21:47:02 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/restdocs.php on line 41
+[19-Apr-2012 05:45:44 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[19-Apr-2012 07:54:05 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/restdocs.php on line 41
+[19-Apr-2012 18:40:55 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[19-Apr-2012 18:49:25 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[19-Apr-2012 18:50:35 UTC] PHP Fatal error:  Call to undefined function getLastupdatedDate() in /home/bobiles/public_html/rest-service/index.php on line 40
+[27-Jan-2013 07:02:47 Europe/London] PHP Warning:  require_once(/usr/lib/php/PEAR/Exception.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: Permission denied in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[27-Jan-2013 07:02:47 Europe/London] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'PEAR/Exception.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/bobiles/php:.:..:/usr/local/apache2/htdocs/phpmailer') in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[27-Jan-2013 07:05:48 Europe/London] PHP Warning:  require_once(/usr/lib/php/PEAR/Exception.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: Permission denied in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[27-Jan-2013 07:05:48 Europe/London] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'PEAR/Exception.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/bobiles/php:.:..:/usr/local/apache2/htdocs/phpmailer') in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[27-Jan-2013 10:32:35 Europe/London] PHP Warning:  require_once(/usr/lib/php/PEAR/Exception.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: Permission denied in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[27-Jan-2013 10:32:35 Europe/London] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'PEAR/Exception.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/bobiles/php:.:..:/usr/local/apache2/htdocs/phpmailer') in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[27-Jan-2013 12:44:50 Europe/London] PHP Warning:  require_once(/usr/lib/php/PEAR/Exception.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: Permission denied in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[27-Jan-2013 12:44:50 Europe/London] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'PEAR/Exception.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/bobiles/php:.:..:/usr/local/apache2/htdocs/phpmailer') in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[27-Jan-2013 19:11:50 Europe/London] PHP Warning:  require_once(/usr/lib/php/PEAR/Exception.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: Permission denied in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[27-Jan-2013 19:11:50 Europe/London] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'PEAR/Exception.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/bobiles/php:.:..:/usr/local/apache2/htdocs/phpmailer') in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[28-Jan-2013 03:09:32 Europe/London] PHP Warning:  require_once(/usr/lib/php/PEAR/Exception.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: Permission denied in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[28-Jan-2013 03:09:32 Europe/London] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'PEAR/Exception.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/bobiles/php:.:..:/usr/local/apache2/htdocs/phpmailer') in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[29-Jan-2013 15:46:39 Europe/London] PHP Warning:  require_once(/usr/lib/php/PEAR/Exception.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: Permission denied in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[29-Jan-2013 15:46:39 Europe/London] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'PEAR/Exception.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/bobiles/php:.:..:/usr/local/apache2/htdocs/phpmailer') in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[29-Jan-2013 21:39:40 Europe/London] PHP Warning:  require_once(/usr/lib/php/PEAR/Exception.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: Permission denied in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[29-Jan-2013 21:39:40 Europe/London] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'PEAR/Exception.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/bobiles/php:.:..:/usr/local/apache2/htdocs/phpmailer') in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[29-Jan-2013 22:50:43 Europe/London] PHP Warning:  require_once(/usr/lib/php/PEAR/Exception.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: Permission denied in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[29-Jan-2013 22:50:43 Europe/London] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'PEAR/Exception.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/bobiles/php:.:..:/usr/local/apache2/htdocs/phpmailer') in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[30-Jan-2013 03:30:50 Europe/London] PHP Warning:  require_once(/usr/lib/php/PEAR/Exception.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: Permission denied in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[30-Jan-2013 03:30:50 Europe/London] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'PEAR/Exception.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/bobiles/php:.:..:/usr/local/apache2/htdocs/phpmailer') in /home/bobiles/php/HTTP/Request2/Exception.php on line 47

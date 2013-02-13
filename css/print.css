@@ -1,0 +1,82 @@
+/*****************************
+
+	css for printing
+	
+	******************************/
+	
+body
+{
+	color: black;
+	background: white;
+}
+
+
+a
+{
+	color: black;
+	background: white;
+}
+
+a:hover 
+{ 
+	color: black;	/* mouse over a link turns it to orange */
+}	
+
+
+/* Used for church image - top of left hand column */
+img.churchtopleft 
+{
+  border: black 1px solid;
+}
+
+/* Used for church image at top of center column */
+img.churchcenterimg
+{
+  border: black 1px solid;
+}
+
+/* Used for pictures of people - no width or height setting */
+img.people
+{
+  border: black 1px solid;
+}
+
+img.thumbnail 
+{
+  border: black 2px solid;
+}
+
+.surroundbox
+{
+	padding:4px; 
+	border:1px solid black;
+}
+
+.error
+{
+	color: black;	
+}
+
+.lastupdated
+{
+	color: black;
+}
+
+
+.new
+{
+	color: black;
+}
+
+
+/* Overrides for layout.css */
+#footer
+{
+	border-top: black 2px solid; 
+}
+
+#topsection
+{
+	border-bottom: black 2px solid; 
+}
+

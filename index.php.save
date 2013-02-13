@@ -1,0 +1,463 @@
+<?php
+
+	require_once("dbconnectparms.php");
+	require_once("globals.php");
+	require_once("genlib.php");
+	require_once("mysql.php");
+	require_once("dumpquerytotable.php");
+	require_once("class.cdnmail.php");
+	require_once("mysqldatetime.php");
+
+  // How to force a redirect
+  //Header("Status: 302");
+  //Header("Location: http://www.google.co.uk"); 
+
+	// No Caching
+	//Header("Cache-Control: no-cache");
+	//Header("Cache-Control: no-store");
+	//Header("Cache-Control: must-revalidate");
+
+
+	/******************************
+		Start a session. This must be the very first thing done on the page.
+    The session objects constructor also connects to the database.
+	**********************************/
+	require_once("session.php");
+	$oSession = new session();
+
+	$_SESSION['siteMainPage'] = "index.php";
+
+	print('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">');
+
+?>
+<html>
+
+<head>
+
+<?php
+
+print("<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\" >" . "\n");
+print('<meta http-equiv="Content-Style-Type" content="text/css" >' . "\n");
+
+?>
+
+  <title>Christ Church Lye &amp; Stambermill</title>
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" >	
+
+  <meta name="keywords" content="christ, church, lye, cofe, evangelical, england" >	
+
+  <!-- RSS Feed -->
+  <link rel="alternate" type="application/rss+xml" 
+   href="http://www.christchurchlye.org.uk/rss.xml" title="Christ Church Events" >
+  <!-- End RSS Feed -->
+
+
+  <!-- CSS Includes -->
+  <link rel="stylesheet" type="text/css" href="css/layout.css" >
+  <link rel="stylesheet" type="text/css" href="css/church.css" >		
+  <link rel="stylesheet" type="text/css" href="css/slideshow.css" >	
+  <link rel="stylesheet" type="text/css" href="css/tooltip.css" >	
+  <link rel="stylesheet" type="text/css" media="print" href="css/print.css" >	
+  <!-- End CSS Includes -->
+
+  <!-- Javascript Includes -->
+  <!--   <script type="text/javascript" src="jscript/chromejs/chrome.js" ></script> -->
+  <!--   <script type="text/javascript" src="jscript/javaxhtml1-0.js" ></script> -->
+  <script type="text/javascript" src="jscript/jquery-1.2.6.min.js" ></script>
+  <script type="text/javascript" src="jscript/genlib.js" ></script>
+  <script type="text/javascript" src="jscript/ajax.js" ></script>
+  <script type="text/javascript" src="jscript/church.js" ></script>  
+  <script type="text/javascript" src="jscript/slideshow.js" ></script>
+  <script type="text/javascript" src="jscript/tooltip.js" ></script>
+  <!-- <script type="text/javascript" src="jscript/changestyle.js"></script> -->
+  <!-- End Javascript Includes -->
+
+
+
+<?php
+
+// Default to this option when loading this page without an opcode
+//if (!isset($_GET['opcode'])) {
+//	$_GET['opcode'] = FORTH_EVENTS;	
+//}
+
+
+function logInOut()
+{
+	print("<p>\n");
+
+	if ( isset($_SESSION['nickname']) )
+	{
+		print("<a href= \"http://www." . WEBSITE_DOMAIN . "/index.php?displaypage=login.php\">");
+		print("Logout [ " . $_SESSION['nickname'] . " ]");
+		print("</a>");
+		print("<br />\n");
+	}
+	else
+	{
+		print("<a href= \"http://www." . WEBSITE_DOMAIN . "/index.php?displaypage=login.php\">");
+		print("Login");
+		print("</a>");
+
+		print("&nbsp;&nbsp;");
+
+		print("<a href= \"http://www." . WEBSITE_DOMAIN . "/index.php?displaypage=login.php&amp;loginstatus=2\">");
+		print("Register");
+		print("</a>");
+
+		print("<br />\n");
+	}
+
+	print("</p>\n");
+}
+
+?>	
+
+
+</head>
+
+
+<body> 
+
+
+
+
+
+<!-- ========================================================================== -->
+<!--                            Start of CSS Layout                             -->
+<!-- ========================================================================== -->
+<div id="maincontainer">
+
+<!-- ========================================================================== -->
+<!--                             Start Top Section                              --> 
+<!-- ========================================================================== -->
+<div id="topsection">
+<div class="innertube">
+
+<!-- Top Banner for site -->
+<?php
+	include_once("topbanner.php");
+?>
+
+</div>  <!-- End <div class="innertube"> -->
+</div>  <!-- End <div id="topsection"> -->
+
+
+
+
+<!-- ========================================================================== -->
+<!--                               End Top Section                              --> 
+<!-- ========================================================================== -->
+
+
+
+
+<!-- ========================================================================== -->
+<!--                          Start Center Content Section                      --> 
+<!-- ========================================================================== -->
+<div id="contentwrapper">
+<div id="contentcolumn">
+<div class="innertube">
+
+<!-- ========================================================================== -->
+<!--                               Browser Whinging                             --> 
+<!-- ========================================================================== -->
+<noscript> 
+<p>
+<em>
+<span class="error">
+Either your browser does not support JavaScript or Javascript has been disabled.
+</span>
+</em>
+</p>
+</noscript> 
+
+<!--[if lt IE 8]>
+<p>
+<em>
+<span class="error">
+Microsoft recommends that Internet Explorer users should upgrade to the  
+<a href="http://www.microsoft.com/windows/internet-explorer" >latest version - IE8.</a>
+</span>
+</em>
+</p>
+<![endif]-->
+
+<!-- ========================================================================== -->
+<!--                             End Browser Whinging                           --> 
+<!-- ========================================================================== -->
+
+
+
+<div class="menutop">
+<?php
+	buildLinksFromTable('',array('MENU_ITEM_DROP'));
+?>
+</div>
+
+<div class="churchcenter" > 
+
+<img	class="churchcenterimg" src="jpgs/churchfrontwarmem.jpg" 
+            alt="Picture of Christ Church - Click for full size picture" 
+			onclick="location.href='http://www.christchurchlye.org.uk/jpgs/churchfrontwarmem.jpg'"
+			onmouseover="this.style.cursor='pointer'"
+			title="Picture of Christ Church - Click for full size picture" />
+
+</div> 
+
+
+
+
+<?php
+
+
+print("<div id='ajaxcentercontent'>\n");
+
+/*******************
+If the displaypage requested indicates internal content then that content is pulled from the database.
+
+If a relative path to a file is given then that file is included.
+
+If no displaypage is given then the home page is loaded.
+*****************************/
+if (isset($_GET['displaypage'])) 
+{
+	if ($_GET['displaypage'] == INTERNAL_CONTENT_FLAG) 
+	{
+		echo getInternalContent($_GET['rowid']);
+	}
+	else 
+	{
+		// The link that bought us here passes the name of the required source
+		if (file_exists($_GET['displaypage'])) 
+		{
+			include_once($_GET['displaypage']);
+			/***************
+			print("<script type='text/javascript'> \n");
+			print("loadXMLDoc('" . $_GET['displaypage'] . "', 'ajaxcentercontent' ); \n");
+			print("</script> \n");			
+			******************/
+			//loadXMLDoc($_GET['displaypage'], 'ajaxcentercontent');
+		}
+		else 
+		{
+			// Whoops something is screwed up
+			print("<br /><h4>Requested file - [" . $_GET['displaypage'] . "] does not exist</h4>");
+		}
+	}
+}
+else 
+{
+	// displaypage not passed so default to the file included below
+	include_once('home.php');	
+	//print("<script type='text/javascript'> \n");
+	//print("loadXMLDoc('home.php', 'ajaxcentercontent' ); \n");
+	//print("</script> \n");
+	//loadXMLDoc('home.php', 'ajaxcentercontent');	
+}
+
+print("</div>\n");
+
+?>
+
+
+</div>  <!-- END <div class="innertube"> -->
+</div>  <!-- END <div class="contentcolumn"> -->
+</div>  <!-- END <div class="contentwrapper"> -->
+<!-- ========================================================================== -->
+<!--                            End Center Content Section                      --> 
+<!-- ========================================================================== -->
+
+
+
+
+<!-- Test CSS Menu -->
+<?php
+
+/***************
+	$oSysconf = new Sysconf();
+
+	if ($oSysconf->isDropMenuEnabled() )
+	{
+		include_once('dropdownmenu.php');
+	}
+*******************/
+?>
+
+
+<!-- ========================================================================== -->
+<!--                          Start Left Column Content Section                 --> 
+<!-- ========================================================================== -->
+<div id="leftcolumn">
+<div class="innertube">
+
+
+
+<div>
+
+<img	class="churchtopleft" src="jpgs/church003small.jpg" 
+            alt="Picture of Christ Church - Click for full size picture" 
+			onclick="location.href='http://www.christchurchlye.org.uk/jpgs/church003.jpg'"
+			onmouseover="this.style.cursor='pointer'"
+			title="Picture of Christ Church - Click for full size picture" />
+
+</div>
+
+<br />
+
+
+<?php
+
+$oSysconf = new Sysconf();
+
+if ($oSysconf->isPageMenuEnabled() )
+{
+	buildLinksFromTable('LEFT');
+}
+
+?>
+
+
+</div>  <!-- END <div class="innertube"> --> 
+</div>  <!-- END <div id="leftcolumn"> -->
+<!-- ========================================================================== -->
+<!--                            End Left Column Content Section                 --> 
+<!-- ========================================================================== -->
+
+
+
+<!-- ========================================================================== -->
+<!--                          Start Right Column Content Section                --> 
+<!-- ========================================================================== -->
+<div id="rightcolumn">
+<div class="innertube">
+
+
+<?php
+	// logInOut();
+?>
+
+
+<?php
+
+$oSysconf = new Sysconf();
+
+$tmp = strpos(strtoupper($_SERVER['HTTP_USER_AGENT']), 'FIREFOX');
+if ($tmp === FALSE || $tmp == 0)
+{
+	$isFirefox = FALSE;
+}
+else
+{
+	$isFirefox = TRUE;
+	// only needed when the Google search box is working
+	//print("<br />\n");
+}	 
+
+if ($oSysconf->isPageMenuEnabled() )
+{	
+	buildLinksFromTable('RIGHT');
+}
+
+?> 	
+
+
+<br />
+<br />
+
+
+<a href="http://www.christchurchlye.org.uk/rss.xml">
+<!-- Forthcoming Events -->
+RSS Feed
+</a>
+
+<img	src="jpgs/feed-icon-14x14.png" 
+            alt="RSS Feed of Christ Church Forthcoming Events" 
+			onclick="location.href='http://www.christchurchlye.org.uk/rss.xml'"
+			onmouseover="this.style.cursor='pointer'"
+			title="RSS Feed of Christ Church Forthcoming Events"			
+			width="14" height="14" />
+
+<br />
+<br />
+<!-- Forthcoming Events -->
+
+<!-- REST Service for Events -->
+<!--
+<a href="http://rest.christchurchlye.org.uk/index.php">
+XML Rest Server for Church Events
+(Alpha)
+</a>
+<br />	
+<br />
+-->
+<!-- End REST Service for Events -->
+
+<!-- ========================================================================== -->
+<!-- Start Google Search Data entry form                                        -->
+<!-- ========================================================================== --> 
+<form action="http://www.google.com/cse" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="003266539997362591666:bizbcosok3s" />
+    <input type="hidden" name="ie" value="UTF-8" />
+		<div style="padding-bottom:4px;">
+    <input type="text" name="q" size="12" />
+		</div>
+    <input type="submit" name="sa" value="Site Search" />
+  </div>
+</form>
+
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+<!-- ========================================================================== -->
+<!-- End Google Search Data entry form                                          -->
+<!-- ========================================================================== -->
+
+<br />
+
+<!-- ========================================================================== -->
+<!-- Start Google Translate form                                                -->
+<!-- ========================================================================== --> 
+<div id="google_translate_element"></div><script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en'
+  }, 'google_translate_element');
+}
+</script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- ========================================================================== -->
+<!-- End Google Translate form                                                  -->
+<!-- ========================================================================== -->
+
+
+<p>
+<div class="surroundbox" >
+
+<div class="lastupdated">
+	<?php
+		print "Last Updated <br />\n";
+		print getLastUpdateTimestamp();
+  ?>
+</div>		
+
+</div> <!-- class="surroundbox -->
+</p>
+
+<!-- ========================================================================== -->
+<!--                            End Right Column Content Section                 --> 
+<!-- ========================================================================== -->
+</div>  <!-- END <div class="innertube"> --> 
+</div>  <!-- END <div id="rightcolumn"> -->
+
+
+<div>
+<?php
+include_once("footer.php");
+?>
+</div>
+
+</body>
+
+</html>
+
+

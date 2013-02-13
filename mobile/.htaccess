@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mobile.christchurchlye.org.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www.mobile.christchurchlye.org.uk$
+RewriteRule ^/?$ "http\:\/\/christchurchlye\.org\.uk\/mobile\.php" [R=301,L]
+

@@ -1,0 +1,79 @@
+
+body{
+margin:0;
+padding:0;
+line-height: 1em;
+background: #deedff;
+}
+
+/* b{font-size: 110%;} */
+/* em{color: red;} */
+
+#maincontainer
+{
+	margin: 0px; /* cdn */
+	padding: 0px; /* cdn */
+}
+
+#topsection{
+top: 0px; 							/* Forces top banner right to top of screen */
+/* position: fixed; */       /* Forces banner to stay at top of screen as web page scrolls */
+/* background: #deedff; */    /* If no background color is given then top banner is transparent */
+height: 40px;						/* Height of top section*/
+width: 100%; 
+border-bottom: blue 2px solid; 
+/* Force top banner on top of everything */
+/* z-index: +1; only needed if top section is to float on top when scrolling */
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin: 0 15% 0 20%; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+/*margin-top: 40px; */  /* Needs to match with height of #topsection defined above */
+padding-top: 10px; 
+}
+
+#leftcolumn{
+float: left;
+width: 20%; /*Width of left column in percentage*/
+/*margin-top: 40px; */  /* Needs to match with height of #topsection defined above */
+margin-left: -100%;
+padding-top: 10px; 
+}
+
+#rightcolumn{
+float: left;
+width: 15%; /*Width of right column in pixels*/
+/*margin-top: 40px; */  /* Needs to match with height of #topsection defined above */
+margin-left: -15%; /*Set margin to that of -(RightColumnWidth)*/
+padding-top: 10px;
+}
+
+#footer{
+clear: both; 
+width: 100%;
+padding: 0px;
+BORDER-TOP: blue 2px solid; 
+text-align:center;
+font-size: 0.75em; 
+}
+
+
+
+.innertube{
+margin-top: 0px;  /*Margins for inner DIV inside each column (to provide padding)*/
+margin-left: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+}
+

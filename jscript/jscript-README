@@ -1,0 +1,10 @@
+CDN 18/4/11
+
+jquery-1.2.6.min.js is actually jquery-1.5.2.min.js
+
+1.5.2 has been copied over 1.2.6 to simplify the upgrade, 
+otherwise a lot of includes would have to have been changed over
+the website.
+
+A Symbolic link could not have been used 'cos the Church ISP
+doesn't make it easy to create links.

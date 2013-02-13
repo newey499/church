@@ -1,0 +1,21 @@
+
+
+.tip 
+{
+	/* font:10px/12px Arial,Helvetica,sans-serif; border:solid 1px #666666; width:270px; padding:1px; */
+/* style="color:blue; width:25em; padding-left:1em;" */
+	font:16px/18px Arial,Helvetica,sans-serif; border:solid 1px #666666; width:120px; padding:1px;
+	padding: 1em;
+	position:absolute;
+	z-index:100;
+	visibility:hidden;
+	color:#333333;
+	top:20px;
+	left:90px;
+	width:25em;
+	background-color:#ffffcc;
+	layer-background-color:#ffffcc;
+	border-radius: 15px;
+	border:2px solid blue;
+}
+                  

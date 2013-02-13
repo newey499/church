@@ -1,0 +1,24 @@
+# global variables
+ROW_ADD=1
+ROW_UPD=2
+ROW_DEL=3
+ROW_TOUCH=4
+
+
+
+
+# Example - multiple line entry
+# # [Login]
+# pageTitle = "Login"
+# focus = "username"
+# Intro = """This is a value that spans more
+#            than one line. you must enclose
+#            it in triple quotes."""
+
+# Example - hidden section
+# # hidden section
+# [.Database]
+# host=localhost
+# db=bobiles_church
+# user=cdn
+# pass=charlton

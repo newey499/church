@@ -1,0 +1,13 @@
+
+To load the initial database.
+
+1) create user cdn with password charlton on MySQL.
+2) Create the database "bobiles_church".
+3) restore the backup contained in initial_database_load.sql
+   via the mysql utility
+4) create the required views by running the churchviews.sql script
+   via the mysql utility.
+   
+Note that database connection parameters are stored in the directory
+above this one in the file dbconnectparms.php.  
+   

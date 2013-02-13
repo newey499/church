@@ -1,0 +1,58 @@
+/* 
+    Document   : rest
+    Created on : 11-Mar-2011, 06:46:15
+    Author     : cdn
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+	Style sheet for documentation of REST Documentation
+	Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body
+{
+  color: blue;
+  background: #deedff;
+  padding-left: 1em;
+}
+
+code
+{
+	/* background-color: silver; */
+}
+
+.codeblock
+{
+	border: black 2px solid;
+	background-color: silver;
+	margin-left: 5em;
+	margin-right: 5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+table
+{
+	border: black 1px solid;
+	border-collapse: collapse;
+	empty-cells: show;   /* draw borders around empty cells */
+}
+
+tr
+{
+	border: black 1px solid;
+}
+
+th
+{
+	/* border: black 1px solid; */
+}
+
+td
+{
+	border-top: black 1px solid;
+	border-right: black 1px solid;
+	padding: 0.2em;
+}

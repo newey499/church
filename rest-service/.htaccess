@@ -1,0 +1,57 @@
+#######################################
+#
+# .htaccess
+#
+# Contains rewrite rules for Church REST Service
+#
+# 11/03/2011	CDN				Created
+#
+#
+#######################################
+
+
+	Options +FollowSymLinks
+
+###################################
+# Normally rewrite rules are placed in .htaccess files
+# but not for virtual hosts
+#
+###################################
+	RewriteEngine  on
+
+
+#########################
+# Debug tests
+# ===========
+# Both these two work - note "/" on index.php
+#	RewriteRule    ^/page1\.html$  /index.php [R]
+#	RewriteRule    ^/page1\.html$  index.php [R]
+#	RewriteRule    ^/page1\.html$  index.php 
+
+	
+# don't rewrite if physical file exists
+#	RewriteCond %{REQUEST_FILENAME} !-f
+# don't rewrite if physical directory exists
+#	RewriteCond %{REQUEST_FILENAME} !-d
+	
+
+##########################################################
+
+# rewrite uri's beginning with /events to despatcher.php
+RewriteCond %{REQUEST_URI} ^/events [NC]
+# Send to despatcher.php with originally requested uri as GET Args
+RewriteRule ^(.*)$ /despatcher.php?$1 [L]
+
+# rewrite uri's beginning with /monthly to despatcher.php
+RewriteCond %{REQUEST_URI} ^/monthly [NC]
+# Send to despatcher.php with originally requested uri as GET Args
+RewriteRule ^(.*)$ /despatcher.php?$1 [L]
+
+
+# rewrite uri's beginning with /diagnostic to diagnostic.php
+RewriteCond %{REQUEST_URI} ^/diagnostic [NC]
+# Send to diagnostic.php with originally requested uri as GET Args
+RewriteRule ^(.*)$ /diagnostic.php?$1 [L]
+
+
+

@@ -1,0 +1,46 @@
+[18-May-2012 15:58:49 UTC] PHP Warning:  require_once(session.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/bobiles/public_html/useradmin/index.php on line 17
+[18-May-2012 15:58:49 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'session.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/bobiles/php:/usr/local/apache2/htdocs/phpmailer') in /home/bobiles/public_html/useradmin/index.php on line 17
+[18-May-2012 16:00:10 UTC] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/bobiles/public_html/useradmin/index.php:3) in /home/bobiles/public_html/session.php on line 44
+[18-May-2012 16:00:10 UTC] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/bobiles/public_html/useradmin/index.php:3) in /home/bobiles/public_html/session.php on line 44
+[18-May-2012 16:01:35 UTC] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/bobiles/public_html/useradmin/index.php:3) in /home/bobiles/public_html/session.php on line 44
+[18-May-2012 16:01:35 UTC] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/bobiles/public_html/useradmin/index.php:3) in /home/bobiles/public_html/session.php on line 44
+[20-May-2012 08:55:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bobiles/public_html/dlvr.it-config.php:22) in /home/bobiles/public_html/admin/fcform.php on line 31
+[20-May-2012 08:55:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bobiles/public_html/dlvr.it-config.php:22) in /home/bobiles/public_html/admin/fcform.php on line 32
+[20-May-2012 08:55:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bobiles/public_html/dlvr.it-config.php:22) in /home/bobiles/public_html/admin/fcform.php on line 33
+[20-May-2012 08:55:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bobiles/public_html/dlvr.it-config.php:22) in /home/bobiles/public_html/admin/fcform.php on line 34
+[22-May-2012 17:39:13 UTC] PHP Fatal error:  Call to undefined method buildForm::setIsHidden() in /home/bobiles/public_html/useradmin/editforthevents.php on line 114
+[15-Jun-2012 07:18:10 UTC] PHP Parse error:  syntax error, unexpected T_NS_SEPARATOR in /home/bobiles/public_html/buildform.php on line 473
+[11-Jul-2012 09:47:25 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[11-Jul-2012 09:48:01 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[11-Jul-2012 09:48:23 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[16-Jul-2012 17:47:07 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[16-Jul-2012 17:47:37 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[16-Jul-2012 17:49:41 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[29-Aug-2012 18:22:25 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[29-Aug-2012 18:22:52 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[29-Aug-2012 18:24:19 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[29-Aug-2012 19:44:10 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[29-Aug-2012 19:59:55 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[29-Aug-2012 20:18:43 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[29-Aug-2012 20:22:23 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[29-Aug-2012 20:33:22 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[02-Sep-2012 21:27:13 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[09-Sep-2012 19:18:11 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[23-Sep-2012 15:38:28 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[02-Oct-2012 08:20:13 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[07-Oct-2012 19:43:49 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[14-Oct-2012 13:25:54 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[04-Nov-2012 13:31:50 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[11-Nov-2012 20:17:08 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[18-Nov-2012 17:14:28 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[25-Nov-2012 20:14:21 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[02-Dec-2012 16:50:32 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[09-Dec-2012 14:48:31 UTC] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[17-Dec-2012 09:27:11 Europe/London] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[23-Dec-2012 22:28:29 Europe/London] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[23-Dec-2012 22:37:30 Europe/London] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[06-Jan-2013 20:05:27 Europe/London] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[20-Jan-2013 13:35:29 Europe/London] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228
+[27-Jan-2013 12:58:56 Europe/London] PHP Warning:  require_once(/usr/lib/php/PEAR/Exception.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: Permission denied in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[27-Jan-2013 12:58:56 Europe/London] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'PEAR/Exception.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/bobiles/php:.:..:/usr/local/apache2/htdocs/phpmailer') in /home/bobiles/php/HTTP/Request2/Exception.php on line 47
+[28-Jan-2013 12:43:31 Europe/London] PHP Fatal error:  Call to a member function shortenUrl() on a non-object in /home/bobiles/public_html/class.socialmedia.php on line 228

@@ -1,0 +1,54 @@
+##ACAP version=1.0
+
+Sitemap: http://christchurchlye.org.uk/sitemap.xml
+
+User-agent: *
+Disallow: /devsystem/
+Disallow: /admin/
+Disallow: /backup/
+Disallow: /cdn/
+Disallow: /cgi-bin/
+Disallow: /css/
+Disallow: /dev/
+Disallow: /ftp/
+Disallow: /jpgs/
+Disallow: /jscript/
+Disallow: /phpbb/
+Disallow: /phpfreechat/
+Disallow: /phpmailer/
+Disallow: /sdmenu/
+Disallow: /sql/
+
+
+ACAP-crawler: *
+# User-agent: *
+ACAP-disallow-crawl: /devsystem/
+# Disallow: /devsystem/
+ACAP-disallow-crawl: /admin/
+# Disallow: /admin/
+ACAP-disallow-crawl: /backup/
+# Disallow: /backup/
+ACAP-disallow-crawl: /cdn/
+# Disallow: /cdn/
+ACAP-disallow-crawl: /cgi-bin/
+# Disallow: /cgi-bin/
+ACAP-disallow-crawl: /css/
+# Disallow: /css/
+ACAP-disallow-crawl: /dev/
+# Disallow: /dev/
+ACAP-disallow-crawl: /ftp/
+# Disallow: /ftp/
+ACAP-disallow-crawl: /jpgs/
+# Disallow: /jpgs/
+ACAP-disallow-crawl: /jscript/
+# Disallow: /jscript/
+ACAP-disallow-crawl: /phpbb/
+# Disallow: /phpbb/
+ACAP-disallow-crawl: /phpfreechat/
+# Disallow: /phpfreechat/
+ACAP-disallow-crawl: /phpmailer/
+# Disallow: /phpmailer/
+ACAP-disallow-crawl: /sdmenu/
+# Disallow: /sdmenu/
+ACAP-disallow-crawl: /sql/
+# Disallow: /sql/

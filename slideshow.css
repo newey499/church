@@ -1,0 +1,50 @@
+/* ============================================== */
+/* slideshow.css                                  */
+/* Requires slideshow.js                          */
+/*                                                */
+/* CSS for slideshow                              */
+/* set the width and height to match your images  */
+/* ============================================== */
+
+
+#slideshow 
+{
+	position:relative;
+	width:350px;
+	height:300px;
+}
+
+#slideshow DIV 
+{
+	width: 350px; 
+	height: 300px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:8;
+	opacity:0.0;
+	background-color: #FFF;
+}
+
+#slideshow DIV.active {
+	z-index:10;
+	opacity:1.0;
+}
+
+#slideshow DIV.last-active {
+	z-index:9;
+}
+
+#slideshow DIV IMG 
+{
+	width: 350px; 
+	height: 300px; 
+	display: block;
+	/* border: 0; */
+	/* margin-bottom: 10px; */
+	background-color: white;
+	border: black 0.1em solid;
+	padding: 0.3em;
+}
+
+/* ============================================== */

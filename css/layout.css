@@ -1,0 +1,110 @@
+/****************************
+
+Modification History
+====================
+
+Date		Programmer				Description
+12/06/2012 CDN				#contentcolumn - left column no longer used
+
+
+************************************/
+
+body
+{
+	line-height: 1.3em;
+
+	color:blue;
+	/*  background: #deedff; */
+	/* background: grey; */
+	background: #3675A3;
+	font-size: 1.0em;
+	font-family: Arial, "Times New Roman", Helvetica, sans-serif;
+}
+
+#maincontainer
+{
+	/* margin-left: 10px; */
+	/* margin-right: 10px; */
+	margin: 20px;
+	padding: 20px;
+	background: #deedff;
+	border-radius:10px;
+}
+
+#topsection
+{
+	clear:both;
+	top: 0px; 							/* Forces top banner right to top of screen */
+	/* position: fixed; */    /* Forces banner to stay at top of screen as web page scrolls */
+	/* height: 40px; */						/* Height of top section*/
+	font-size:1.0em;
+	height: 100px;
+	width: 100%;
+	/* border-bottom: red 2px solid; */
+	/* Force top banner on top of everything */
+	/* z-index: +1; only needed if top section is to float on top when scrolling */
+}
+
+
+#contentwrapper
+{
+	float: left;
+	width: 100%;
+}
+
+#contentcolumn
+{
+	min-height:600px;
+	/* 12/06/2012 #contentcolumn - left column no longer used */
+	/* margin: 0 15% 0 20%; */ /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+	/*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+	margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-right: 20%;
+	/*margin-top: 40px; */  /* Needs to match with height of #topsection defined above */
+	padding-right: 20px;
+}
+
+#leftcolumn
+{
+	min-height:600px;
+
+	float: left;
+	width: 20%; /*Width of left column in percentage*/
+	/*margin-top: 40px; */  /* Needs to match with height of #topsection defined above */
+	margin-left: -100%;
+}
+
+#rightcolumn
+{
+	min-height:600px;
+	float: left;
+	width: 20%; /*Width of right column in pixels*/
+	/*margin-top: 40px; */  /* Needs to match with height of #topsection defined above */
+	margin-left: -20%; /*Set margin to that of -(RightColumnWidth)*/
+
+}
+
+#footer
+{
+	clear: both;
+	width: 100%;
+	border-top: blue 2px solid;
+	text-align:center;
+	font-size: 0.75em;
+}
+
+.innertube
+{
+	/*Margins for inner DIV inside each column (to provide padding)*/
+	/*********
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	*****************/
+	margin:0px;
+	padding:0px;
+}
+

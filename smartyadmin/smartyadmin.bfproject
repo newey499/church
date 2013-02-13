@@ -1,0 +1,9 @@
+name: SmartyAdmin
+basedir: /www/church/devsystem/smartyadmin/
+webdir: http://churchdev/smartyadmin/admin.php
+template: 
+word_wrap: 0
+view_html_toolbar: 1
+view_custom_menu: 1
+view_main_toolbar: 1
+view_left_panel: 1

@@ -1,0 +1,48 @@
+<a href="http://www.cofe.anglican.org/">
+<img src="jpgs/cofe_logo030.gif" 
+     onmouseover="this.style.cursor='pointer'" 
+	 alt="Link to Church of England Website" 
+		 title="Link to Church of England Website" 
+/> 
+</a>
+
+&nbsp;&nbsp;
+
+<span class="christchurchtitle">
+<a href="http://christchurchlye.org.uk">
+Christ Church
+</a>
+</span>
+
+<span class="christchurchaddress">
+	High Street, Lye, Stourbridge, West Mids, UK. DY9 8LF
+</span>
+
+<h1>Sorry, the page requested does not exist on this
+<a href="http://christchurchlye.org.uk">
+website
+</a>
+</h1>
+
+
+<h2>
+Requested Page [
+<!--#echo var="REQUEST_URI" -->
+]
+</h2>
+
+<h2>
+Server [
+<!--#echo var="HTTP_HOST" -->
+]
+</h2>
+
+<h2>
+Error Code 404  - Page not found.
+</h2>
+
+
+
+<!-- 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+--> 

@@ -1,0 +1,16 @@
+BODY {
+	PADDING-TOP: 0px;
+	PADDING-LEFT: 0px;	
+	PADDING-BOTTOM: 0px;	
+	PADDING-RIGHT: 0px;
+
+	MARGIN: 0px;
+
+	BACKGROUND: #fff;
+
+	FONT: 12px/1.2 Verdana, Arial, Helvetica, sans-serif;
+}
+
+#error {
+	COLOR: red;
+}
