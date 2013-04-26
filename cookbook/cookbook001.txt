@@ -1,0 +1,44 @@
+
+
+utensils
+    mess tins
+    slow cooker
+    deep fat fryer
+    fridge
+    cooker
+
+
+purchasing ingredients
+    indian shops
+    sack of onions
+    oranges
+    sack of potatos
+    garlic
+    chile
+    ginger
+    black pepper
+
+    spar
+    tinned tomatoes
+    baked beans
+    bacon pieces
+    stock cubes
+    rice
+    pasta
+    salt
+    vinegar
+    vegetable oil
+
+    waitrose
+    buillon
+
+recipes
+
+    chicken
+    
+
+
+
+
+
+
